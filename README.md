@@ -6,7 +6,7 @@
 
 Competition: [Build the strongest chess engine in 4 KB of Python](https://make.fun/bounty/tiny-chess-01)
 
-The entry is a single-file, LZMA-packed chess engine for the Tiny Chess competition. `main.py` targets Python 3.13 and uses only the standard library. The packed entry is **3,720 bytes**, within the **4,096-byte** limit.
+The entry is a single-file, LZMA-packed chess engine for the Tiny Chess competition. `main.py` targets Python 3.13 and uses only the standard library. The packed entry is **3,729 bytes**, within the **4,096-byte** limit. It is produced by the kit's own `makefun compress` from the readable v4 source.
 
 The readable source used to build the entry is provided as `packs/engine.py` in the accompanying Make.fun transcript bundle.
 
